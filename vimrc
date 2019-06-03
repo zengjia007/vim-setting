@@ -12,7 +12,6 @@ let g:go_version_warning = 0
 nmap <F9> :w<CR>"zyiw:exe "!go test -test.run ^".@z."$"<CR>
 
 "GoReferrers
-nmap <F10> :GoGuruScope code.byted.org/caijing_pay<CR>:GoReferrers<CR>
 
 nmap <C-k> :vertical resize +5<CR>
 nmap <C-j> :vertical resize -5<CR>
